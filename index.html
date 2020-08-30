@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<link rel="icon" id="favicon" href="" type="image/x-icon">
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>CHECKER FGTS - 2020</title>
+
+</head>
+
+<body style='background-color:#4B0082;color:#f7f7f7'>
+	<center>
+		<h1>CHECKER</h1>
+		<textarea name="lista" id="lista" cols="80" rows="10"></textarea><br />
+		<p></p>
+		<button type="submit" id="start" name="start" style='width: 15%;' class="btn btn-success"><strong>INICIAR</strong></button>
+
+		<br /><br />
+		<div style='width:30%'>
+			<span style="color:lime" id="click_rpd"><strong>LIVE - FGTS</strong>
+			</span><span id="apd_count">0</span>
+		</div>
+
+		<div id="aprovadas"></div>
+
+		<br /><br />
+		<div id="text" style='width:30%'>
+			<span style="color:red" id="click_rpd"><strong>DIE - FGTS</strong>
+			</span><span id="rpd_count">0</span>
+		</div>
+
+		<div id="reprovadas"></div>
+
+	</center>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="assets/checker.js"></script>
+</body>
+
+</html>
